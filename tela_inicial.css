@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-image: url("Imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: #dee9ff;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    font-family: "Raleway", serif;
+    }
+    .espaco{
+        width: 100vh;
+        height: 100px;
+    }
+    .Carrossel{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    
+    }
+    .lista .itens{
+        list-style: none;
+    }
+    
+    .lista .itens .links{
+        user-select: auto;
+        display: block;
+        padding: 8px;
+        border-radius: 12px;
+        text-decoration: none;
+        border: 2px solid transparent;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+        transition: 0.2 ease;
+    }
+    .lista .itens .links:hover{
+        border-color: #5372F0 ;    
+    }
+    
+    .lista .links .img{
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    .lista .links{
+        color: #ffffff;
+        padding: 8px 16px;
+        width: fit-content;
+        margin: 16px 0 18px;
+        background: white;
+        border-radius: 12px;
+    }
+    
+    .lista .links .botao{
+            height: 35px;
+            width: 35px;
+            color: #5372F0;
+            cursor: pointer;
+            border-radius: 50%;
+            margin: 10px 0 5px;
+            background: none;
+            cursor: pointer;
+            border: 2px solid #5372F0;  
+            transform: rotate(-45deg);
+            transition: 0.4s ease;
+    }
+    
+    .lista .links:hover .botao{
+        color: #fff;
+        background: #5372F0;
+        
+    }
+
+    .local{
+        display: block;
+        font-size: 15px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+        color: #1c1c1f;
+        font-family: "Inter", sans-serif;
+
+    }
+
+    #preco{
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    .desc{
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+        color: #1c1c1f;
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+    }
+    :root {
+        --swiper-theme-color: #f2dc98;
+    }
+    #tamanho{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .tipo{
+        position: relative;
+        text-align: right;
+        font-weight: bold;
+        color: #1c1c1f;
+        font-family: "Inter", sans-serif;
+        width: 97%;
+        margin-top: 0.5rem;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        line-height: 115%;
+        font-weight: 700;
+        margin: 0px;
+        margin-right: 100px;
+        top: 90px;
+    }
+    .descInter{
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+        color: #1c1c1f;
+        font-size: 30px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #precoInter{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .localInter{
+        display: block;
+        font-size: 35px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+        color: #1c1c1f;
+        font-family: "Inter", sans-serif;
+
+    }
+    .tipo2{
+        position: relative;
+        font-weight: bold;
+        color: #1c1c1f;
+        font-family: "Inter", sans-serif;
+        width: 97%;
+        margin-top: 0.5rem;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        line-height: 115%;
+        font-weight: 700;
+        margin: 0px;
+        margin-right: 100px;
+        top: 90px;
+    }
+    #tamanhoInter2{
+        margin-right: 70px;
+    }
